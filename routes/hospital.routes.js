@@ -76,4 +76,6 @@ router.get('/detail/:id', auth, hospitalController.getOneHospital);
 //병원 이미지 가져오기
 router.get('/information/hospitalImage', auth, hospitalController.getHospitalImage);
 
+//실시간 채팅 기능 추가
+
 module.exports = router;
